@@ -15,6 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+bin/
 lib64/
 parts/
 sdist/
@@ -64,6 +65,7 @@ db.sqlite3-journal
 # Flask stuff:
 instance/
 .webassets-cache
+.ipynb_checkpoints
 
 # Scrapy stuff:
 .scrapy
@@ -128,6 +130,8 @@ ENV/
 env.bak/
 venv.bak/
 
+# pyenv
+.python-version
 # Spyder project settings
 .spyderproject
 .spyproject
